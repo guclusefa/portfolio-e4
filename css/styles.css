@@ -11510,7 +11510,7 @@ html {
 
 
 
-/* custom */
+/* custom  ----------------------------------------------------------------------------------------------- */ 
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
@@ -11693,4 +11693,12 @@ ul.timeline:before {
           left: -14px;
           right: auto;
       }
+}
+
+.img-fluid {
+  min-width: 100%
+}
+
+.portfolio-item {
+  border: 0px solid black;
 }
