@@ -469,3 +469,39 @@
 .text-timc {
   color: #0101a3 !important;
 }
+
+a button {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0 solid rgba(0, 0, 0, 0.2);
+  border-radius: 0% !important;
+  outline: 0;
+}
+
+.portfolio-modal .btn-close {
+  color: #004aad !important;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.btn-close:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0;
+  opacity: 1;
+}
+
+.title-modal {
+  content: '';
+  border-bottom: 3px solid #004aad;
+  display: block;
+}
