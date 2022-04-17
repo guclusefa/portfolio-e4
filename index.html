@@ -8,88 +8,92 @@
     <meta name="author" content="" />
     <title>GUCLU SEFA | Portfolio</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
 
+    <!-- ################## STYLE ###################### -->
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" />
-
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/theme.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
 
+    <!-- ################## SCRIPT ###################### -->
     <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" defer></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/script.js" defer></script>
 </head>
 
 <body id="page-top">
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg text-uppercase fixed-top bg-white" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#page-top">GUCLU SEFA</a>
-            <div class="navbar-toggler text-uppercase font-weight-bold text-white" type="button"
+            <a class="navbar-brand text-secondary" href="#page-top">GUCLU SEFA</a>
+            <div class="navbar-toggler collapsed border-0 text-uppercase font-weight-bold" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars fa-xl"></i>
+                <span> </span>
+                <span> </span>
+                <span> </span>
             </div>
+
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">à
+                    <li class="nav-item mx-0 mx-lg-1 text-secondary"><a
+                            class="nav-link py-3 px-0 px-lg-3 rounded text-secondary" href="#about">à
                             PROPOS</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-secondary"
                             href="#portfolio">MES PROJETS</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#stages">MES
-                            STAGES</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-secondary"
+                            href="#stage1">STAGE MFR</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-secondary"
+                            href="#stage2">STAGE TIMC</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
-        <div class="container d-flex align-items-center flex-column">
-            <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">GUCLU Sefa</h1>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Étudiant en développement informatique</p>
-        </div>
-    </header>
 
-    <!-- About Section-->
-    <section class="page-section mb-0  bg-light" id="about">
-        <div class="container">
-            <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">à propos</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fa-solid fa-address-card"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- About Section Content-->
+    <!-- Masthead-->
+    <section class="masthead  page-section mb-0  bg-light" id="about">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Subheading-->
             <div class="row">
-                <div class="col-lg-4 ms-auto">
-                    <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download
-                        includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS
-                        stylesheets for easy customization.</p>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Bienvenue,<br> je suis <span class="text-primary">Sefa
+                            GUCLU</span></h1>
+                    <p class="lead mt-4 hero-text">Quickly design and customize responsive mobile-first sites with
+                        Bootstrap, the
+                        world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
+                        responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <div class="  gap-2 d-md-flex justify-content-md-start mt-4">
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4"><i
+                                class="fab fa-linkedin-in"></i></button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4"><i
+                                class="fab fa-github"></i></i></button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4"><i
+                                class="fas fa-download me-2"></i> MON CV</button>
+                    </div>
                 </div>
-                <div class="col-lg-4 me-auto">
-                    <p class="lead">You can create your own custom avatar for the masthead, change the icon in the
-                        dividers, and add your email address to the contact form to make it fully functional!</p>
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <img src="assets/img/hero.svg" class="d-none d-lg-block  mx-lg-auto img-fluid" width="100%"
+                        height="auto">
                 </div>
             </div>
-            <!-- About Section Button-->
-            <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-dark" href="https://startbootstrap.com/theme/freelancer/">
-                    <i class="fas fa-download me-2"></i>
-                    MON CV
-                </a>
-            </div>
+            <svg width="100%" height="200" fill="none" class="mt-5 d-none d-lg-block ">
+                <defs>
+                    <pattern id="85737c0e-0916-41d7-917f-596dc7edfa27" x="0" y="0" width="20" height="19"
+                        patternUnits="userSpaceOnUse">
+                        <rect x="0" y="0" width="4" height="4" fill="currentColor" class="has-text-grey-lighter"></rect>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="200" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)"></rect>
+            </svg>
         </div>
     </section>
 
@@ -98,13 +102,8 @@
         <!-- Topic Cards -->
         <div id="cards_landscape_wrap-2">
             <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">MES PROJETS</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fa-solid fa-diagram-project"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
+                <h2 class="page-section-heading text-start text-uppercase text-secondary mb-0">MES PROJETS</h2>
+                <hr>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="card-flyer">
@@ -326,119 +325,228 @@
         </div>
     </section>
 
-    <!-- stages Section-->
-    <section class="page-section portfolio bg-light" id="stages">
+    <!-- stage1 Section-->
+    <section class="page-section portfolio bg-light" id="stage1">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">MES STAGES</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fa-solid fa-suitcase"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
+            <h2 class="page-section-heading  text-uppercase text-secondary mb-0">STAGE DE 1ère année</h2>
+            <hr>
             <ul class="timeline">
                 <li>
-                    <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                    <div class="timeline-badge bg-mfr"><i class="fa-solid fa-building"></i></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4 class="timeline-title">Hello</h4>
-                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via
-                                    Twitter</small></p>
-                        </div>
-                        <div class="timeline-body">
-                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
-                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
-                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
-                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
-                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
-                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
-                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                            <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi
-                                no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis
-                                tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque
-                                nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante
-                                turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non
-                                scelerisque augue. Aenean justo massa.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
-                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
-                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
-                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
-                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
-                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
-                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
-                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
-                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
-                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <p class="timeline-title">
+                                        <span class="display-6 text-mfr">MFR</span><br>
+                                        <small class="text-muted">France, Saint-Egrève</small><br>
+                                        <small class="text-muted">3 juin </small><br>
+                                    </p>
+                                </div>
+                                <div class="col-6">
+                                    <img src="assets/img/stages/mfr.svg" alt="" width="100%">
+                                </div>
+                            </div>
                             <hr>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-primary btn-sm dropdown-toggle"
-                                    data-toggle="dropdown">
-                                    <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
-                                </ul>
+
+
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge bg-mfr"><i class="fa-solid fa-1"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Analyse des besoins utilisateur et du cahier des cherges</h4>
+                            <p><small class="text-muted">Jour 1</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                            <div class="gap-2 justify-content-md-start mt-3">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4"><i
+                                        class="fa-solid fa-file me-2 mt-1"></i> Cahier des charges</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Proposition d'une solution</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge bg-mfr"><i class="fa-solid fa-2"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Planification</h4>
+                            <p><small class="text-muted">Jour 1</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                            <div class="gap-2 justify-content-md-start mt-3">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-1"><i
+                                        class="fa-solid fa-chart-gantt me-2"></i> Gantt</button>
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-1"><i
+                                        class="fa-solid fa-database me-2"></i> MLD</button>
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-1"><i
+                                        class="fa-solid fa-folder-tree me-2"></i> Arboresence</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge bg-mfr"><i class="fa-solid fa-3"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Développement de l'application web</h4>
+                            <p><small class="text-muted">Semaine 1 - Semaine 5</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                <p>
+                                    <span class="badge bg-php">PHP</span>
+                                    <span class="badge bg-mysql">MySQL</span>
+                                    <br>
+                                    <span class="badge bg-js mt-2">JS</span>
+                                    <span class="badge bg-jquery">jQuery</span>
+                                    <span class="badge bg-chartjs">ChartJS</span>
+                                    <span class="badge bg-bootstrap">Bootstrap</span>
+                                </p>
+                            <div class="gap-2 justify-content-md-start mt-3">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-1"><i
+                                        class="fa-solid fa-code me-2"></i> Captures d'écran</button>
                             </div>
                         </div>
                     </div>
                 </li>
                 <li>
+                    <div class="timeline-badge bg-mfr"><i class="fa-solid fa-4"></i></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                            <h4 class="timeline-title">Importation de la base de données</h4>
+                            <p><small class="text-muted">Semaine 5</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                            <div class="gap-2 justify-content-md-start mt-3">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-1"><i
+                                        class="fa-solid fa-file-export me-2"></i> Captures d'écran</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="timeline-inverted">
+                    <div class="timeline-badge bg-mfr"><i class="fa-solid fa-5"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Déploiement de l'applcation</h4>
+                            <p><small class="text-muted">Semaine 5</small></p>
+
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                            <div class="gap-2 justify-content-md-start mt-3">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-1"><i
+                                        class="fa-solid fa-laptop-code me-2"></i> Démo</button>
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-1"><i
+                                        class="fa-solid fa-code-fork me-2"></i> Code source</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="card ">
+                <div class="card-body p-3 p-md-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <h1 class="card-title">Bilan du stage</h1>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+                                incidunt magnam? Fuga accusantium quidem officia, officiis voluptate commodi nobis
+                                excepturi repudiandae iusto aliquam at magni odio alias non molestiae inventore!</p>
+                        </div>
+                        <div class="col-6 border-left">
+                            <div class="gap-2 justify-content-md-start">
+                                <h5>Soft skills</h5>
+                                <span class="badge bg-secondary">New</span>
+                                <span class="badge bg-secondary">New</span>
+                            </div>
+                            <hr>
+                            <div class="gap-2 justify-content-md-start mt-3">
+                                <h5>Hard skills</h5>
+                                <span class="badge bg-secondary">New</span>
+                                <span class="badge bg-secondary">New</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- stage2 Section-->
+    <section class="page-section portfolio" id="stage2">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading  text-uppercase text-secondary mb-0">STAGE DE 2ème année</h2>
+            <hr>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge bg-timc"><i class="fa-solid fa-building"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <div class="row">
+                                <div class="col-6">
+                                    <p class="timeline-title">
+                                        <span class="display-6 text-timc">TIMC-LAB (BCM)</span><br>
+                                        <small class="text-muted">France, La Tronche</small><br>
+                                        <small class="text-muted">3 juin </small><br>
+                                    </p>
+                                </div>
+                                <div class="col-6">
+                                    <img src="assets/img/stages/timc.svg" alt="" width="100%">
+                                </div>
+                            </div>
+                            <hr>
+
+
                         </div>
                         <div class="timeline-body">
                             <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
@@ -450,10 +558,11 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                    <div class="timeline-badge bg-timc"><i class="fa-solid fa-1"></i></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                            <h4 class="timeline-title">Analyse des besoins utilisateur</h4>
+                            <p><small class="text-muted">Jour 1</small></p>
                         </div>
                         <div class="timeline-body">
                             <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
@@ -464,13 +573,145 @@
                         </div>
                     </div>
                 </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Proposition d'une solution</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge bg-timc"><i class="fa-solid fa-2"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Développement de l'interface graphique</h4>
+                            <p><small class="text-muted">Semaine 1 - Semaine 2</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                <p>
+                                    <span class="badge bg-csharp">C#</span>
+                                    <span class="badge bg-cpp">C++</span>
+                                </p>
+                            <div class="gap-2 justify-content-md-start mt-3">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-1"><i
+                                        class="fa-solid fa-code me-2"></i> Captures d'écran</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge bg-timc"><i class="fa-solid fa-3"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Développement de l'interface d'interprétation graphique</h4>
+                            <p><small class="text-muted">Semaine 2 - Semaine 4</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                <p>
+                                    <span class="badge bg-python">Python</span>
+                                    <span class="badge bg-r">R</span>
+                                    <span class="badge bg-plotly">Plotly</span>
+                                </p>
+                            <div class="gap-2 justify-content-md-start mt-3">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-1"><i class="fa-solid fa-square-poll-vertical me-2"></i> Captures d'écran</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge bg-timc"><i class="fa-solid fa-4"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Développement de l'interface "glisser-déposer"</h4>
+                            <p><small class="text-muted">Semaine 4 - Semaine 6</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                <p>
+                                    <span class="badge bg-js">JS</span>
+                                    <span class="badge bg-interactjs">InteractJS</span>
+                                </p>
+                            <div class="gap-2 justify-content-md-start mt-3">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-1"><i class="fa-solid fa-pen-ruler me-2"></i> Captures d'écran</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="timeline-inverted">
+                    <div class="timeline-badge bg-timc"><i class="fa-solid fa-5"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Déploiement du logiciel</h4>
+                            <p><small class="text-muted">Semaine 6</small></p>
+
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                            <div class="gap-2 justify-content-md-start mt-3">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-1"><i
+                                        class="fa-solid fa-laptop-code me-2"></i> Démo</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
             </ul>
+            <div class="card ">
+                <div class="card-body p-3 p-md-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <h1 class="card-title">Bilan du stage</h1>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+                                incidunt magnam? Fuga accusantium quidem officia, officiis voluptate commodi nobis
+                                excepturi repudiandae iusto aliquam at magni odio alias non molestiae inventore!</p>
+                        </div>
+                        <div class="col-6 border-left">
+                            <div class="gap-2 justify-content-md-start">
+                                <h5>Soft skills</h5>
+                                <span class="badge bg-secondary">New</span>
+                                <span class="badge bg-secondary">New</span>
+                            </div>
+                            <hr>
+                            <div class="gap-2 justify-content-md-start mt-3">
+                                <h5>Hard skills</h5>
+                                <span class="badge bg-secondary">New</span>
+                                <span class="badge bg-secondary">New</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Copyright Section-->
     <div class="footer text-center copyright py-4 text-center text-white">
-        <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
+        <div class="container"><small>Copyright &copy; GUCLU Sefa 2022</small></div>
     </div>
 
     <!-- Portfolio Modals-->
@@ -716,10 +957,8 @@
         </div>
     </div>
 
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/script.js"></script>
+
+
 </body>
 
 </html>
