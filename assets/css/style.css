@@ -10,7 +10,7 @@
   height: 25px;
   border-radius: 100%;
   border: 1px solid rgb(15, 37, 132);
-  transition: all 200ms ease-out;
+  /* transition: all 200ms ease-out; */
   position: fixed;
   pointer-events: none;
   left: 0;
