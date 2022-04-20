@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 991px) {
   .masthead {
-    padding-top: 8rem !important;
+    padding-top: calc(3rem + 74px) !important;
     padding-bottom: 3rem;
   }
 
@@ -79,6 +79,11 @@
 
   .page-section {
     padding: 3rem 0;
+  }
+
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+    color: #004aad !important;
+    background: none !important;
   }
 }
 
