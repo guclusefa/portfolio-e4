@@ -528,3 +528,13 @@ a button {
   border-bottom: 3px solid #004aad;
   display: block;
 }
+
+.portfolio-modal .btn-close {
+  color: #004aad !important;
+  font-size: 2rem;
+  padding: 0rem;
+}
+
+.lebodydemonmodal {
+  margin-top: -30px;
+}
